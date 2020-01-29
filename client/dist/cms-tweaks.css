@@ -1,0 +1,63 @@
+/* Hide ErrorPages from CMS */
+li.class-SilverStripe_ErrorPage_ErrorPage {
+	display: none !important;
+}
+
+/* Hides "Note: Some page types are not allowed for this selection" message */
+#Form_AddForm .message-restricted {
+	display: none !important;
+}
+
+/* Hides Pages that can't be created in Add page list */
+#Form_AddForm_PageType div.disabled { 
+    display: none !important;
+}
+
+/* Gray out Pages hidden from menus */
+.notinmenu > a {
+	color: #89878b !important;
+}
+
+/* GridField: Hide pagination details from top */
+.grid-field__title + div > .pagination-records-number {
+	display: none;
+}
+
+/* GridField: Align cell contents to middle */
+.grid-field__table td {
+	vertical-align: middle;
+}
+
+/* Make field labels bold to encrease contrast and clarity between data and labels */
+.form__field-label {
+	font-weight: 500 !important;
+	font-size: 12px !important;
+}
+
+/* Metadata box header: bold for match field labels*/
+.ui-accordion-header {
+	font-weight: 500 !important;
+}
+
+/* CMS Tabs: Increase L/R padding */
+.ui-tabs .ui-tabs-nav li a {
+	padding-left: .7rem;
+	padding-right: .7rem;
+	font-weight: 500 !important;
+}
+
+/* Toast notification adjustments - stops them overlapping top tabs */
+.notice-wrap {
+	top:64px;
+}
+
+.notice-item.good {
+	border-color: #008B00;
+}
+
+.notice-item {
+	font-size: 12px;
+	min-height: 50px;
+	border-left: 5px solid;
+	box-shadow: 0px 0px 10px #bbb;
+}

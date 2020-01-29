@@ -1,0 +1,32 @@
+---
+Name: sstweaks
+---
+SilverStripe\Admin\LeftAndMain:
+  help_link: 'http://silverstripe.purplespider.com'
+  extra_requirements_css: 
+    - 'vendor/purplespider/mypswd-tweaks/client/dist/cms-tweaks.css'
+SilverStripe\Control\Email\Email:
+  admin_email: noreply@website-notify.com
+SilverStripe\CMS\Model\VirtualPage:
+  extensions:
+    - PurpleSpider\SSTweaks\CannotCreatePage
+SilverStripe\ErrorPage\ErrorPage:
+  extensions:
+    - PurpleSpider\SSTweaks\CannotCreatePage
+SilverStripe\Assets\File:
+  extensions:
+    - PurpleSpider\SSTweaks\AllowFileUploads
+SilverStripe\Security\Member:
+  extensions:
+    - PurpleSpider\SSTweaks\MemberTidy
+    - PurpleSpider\SSTweaks\MemberLog
+Page:
+  extensions:
+    - PurpleSpider\SSTweaks\PageHideDependent
+    - PurpleSpider\SSTweaks\PageHideExtraMeta
+    - PurpleSpider\SSTweaks\PageSettingsHideSearch
+PSWDSite\HomePage:
+    extensions:
+        - PurpleSpider\SSTweaks\BlockPageArchive
+gorriecoe\DevBuildKey\DevBuildKey:
+    run_in_background: true
