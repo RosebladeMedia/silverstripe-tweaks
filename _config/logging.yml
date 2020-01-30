@@ -9,9 +9,9 @@ SilverStripe\Core\Injector\Injector:
   MailHandler:
       class: Monolog\Handler\NativeMailerHandler
       constructor:
-        - sserrors@pswd.biz
+        - silverstripe@roseblade.media
         - %message%
-        - sserrors@pswd.biz
+        - silverstripe@roseblade.media
         - error
       properties:
         ContentType: text/html

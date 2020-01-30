@@ -2,7 +2,6 @@
 Name: sstweaks
 ---
 SilverStripe\Admin\LeftAndMain:
-  help_link: 'http://silverstripe.purplespider.com'
   extra_requirements_css: 
     - 'vendor/purplespider/mypswd-tweaks/client/dist/cms-tweaks.css'
 SilverStripe\Control\Email\Email:
@@ -30,3 +29,7 @@ PSWDSite\HomePage:
         - PurpleSpider\SSTweaks\BlockPageArchive
 gorriecoe\DevBuildKey\DevBuildKey:
     run_in_background: true
+# Remove developer docs link
+SilverStripe\Admin\LeftAndMain:
+  help_links:
+    'Developer docs': ''

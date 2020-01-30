@@ -1,17 +1,17 @@
-# Purple Spider Web Design Custom SilverStripe Tweaks
+# Roseblade Media SilverStripe Tweaks
+Forked from [Purple Spider Web Design Custom SilverStripe Tweaks](https://github.com/purplespider/silverstripe-mypswd-tweaks)
 
 ## Introduction
 
-This module contains many of the custom tweaks that I make to every SilverStripe site I do. A lot is just hiding features that most of my clients don't use to clean up the CMS interface.
+This module is to be used to tidy up the interface and add a few extra bits to make things work a bit better.
 
-While it is possible to disable specific tweaks by removing the individual extension, **you probably don't want to use this module as is**. Partly because it automatically sets the SilverStripe Help link to my custom help site. However, please do take a look around and steal anything you may find useful!
+This is something that will be developed over time to accomodate user feedback.
 
 ## Maintainer Contact ##
- * James Cocker (ssmodulesgithub@pswd.biz)
+ * Mathew Parker (mathew@roseblade.media)
  
 ## Requirements
  * Silverstripe 4.1+
- * For SilverStripe 3 related tweaks, see the 1.0 branch.
 
 ## Active Extensions
 * __AllowFileUploads:__ Enabled file uploads for all CMS users. (sets canCreate etc to true)
@@ -19,17 +19,15 @@ While it is possible to disable specific tweaks by removing the individual exten
 * __PageHideExtraMetaData:__ Hides MetaKeywords and ExtraMeta fields.
 * __PageSettingsHidePermissions:__ Hides Page permission fields such as CanViewType and CanEditType.
 * __PageSettingsHideSearch:__ Hides the ShowInSearch settings field.
-* __MemberTidy:__ Hides ofen unused Member fields such as Time & Date format.
+* __MemberTidy:__ Hides often unused Member fields such as Time & Date format.
 
 ## Extra Extensions
 * __CannotCreatePage:__ Apply this extension to page types that you don't want non-admin users to be able to create.
 * __BlockPageDelete:__ Disables ability to Archive or Unpublish a page that extends this. Applied to HomePage by default.
 * __SinglePageOnly:__ Can to applied to any page type, so only 1 can be created. Useful for keeping the Add New page type list tidy.
 
-
 ## Page Types
 * __FirstChildRedirect:__ Automatically redirects to the first child of the page. Useful for top level pages with no content of their own.
-
 
 ## Config
 * __E-mail Error Log Alerts:__ logging.yml e-mails any error that occurs on a 'live' site.
@@ -39,7 +37,6 @@ While it is possible to disable specific tweaks by removing the individual exten
 * __Set Admin Email:__ Set's the Admin Email address to a noreply address for the current domain. Better than no address at all, which can result in forgotten password e-mails flagged as spam.
 * __Disable TinyMCE Icons:__ Disables some icons such as underline.
 * __Enable TinyMCE Styles:__ Enables the Styles dropdown for custom styles.
-
 
 ## CMS CSS
 * __Hides Error Pages:__ Hides error pages from the site tree.
