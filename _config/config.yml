@@ -3,7 +3,7 @@ Name: sstweaks
 ---
 SilverStripe\Admin\LeftAndMain:
   extra_requirements_css: 
-    - 'vendor/purplespider/mypswd-tweaks/client/dist/cms-tweaks.css'
+    - 'vendor/roseblade/silverstripe-tweaks/client/dist/cms-tweaks.css'
 SilverStripe\Control\Email\Email:
   admin_email: noreply@website-notify.com
 SilverStripe\CMS\Model\VirtualPage:
