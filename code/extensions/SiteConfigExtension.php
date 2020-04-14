@@ -5,6 +5,7 @@ namespace Roseblade\DataExtension;
 use SilverStripe\ORM\DataExtension;
 use SilverStripe\Forms\TextField;
 use SilverStripe\AssetAdmin\Forms\UploadField;
+use SilverStripe\Forms\FieldList;
 
 class SiteConfigExtension extends DataExtension
 {
