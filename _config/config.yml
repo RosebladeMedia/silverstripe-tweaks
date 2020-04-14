@@ -4,6 +4,15 @@ Name: sstweaks
 SilverStripe\Admin\LeftAndMain:
   extra_requirements_css: 
     - 'vendor/roseblade/silverstripe-tweaks/client/dist/cms-tweaks.css'
+  help_links:
+    'Developer docs': ''
+  cms_background: '#114759'
+  cms_border_color: '#114759'
+  cms_color: '#fff'
+  cms_hover_background: '#0f5970'
+  cms_active_background: '#2cadd7'
+  cms_active_color: '#fff'
+  cms_drawer_background: '#1d7b99'
 SilverStripe\Control\Email\Email:
   admin_email: noreply@website-notify.com
 SilverStripe\CMS\Model\VirtualPage:
@@ -29,7 +38,8 @@ PSWDSite\HomePage:
         - PurpleSpider\SSTweaks\BlockPageArchive
 gorriecoe\DevBuildKey\DevBuildKey:
     run_in_background: true
-# Remove developer docs link
-SilverStripe\Admin\LeftAndMain:
-  help_links:
-    'Developer docs': ''
+SilverStripe\SiteConfig\SiteConfig:
+  cms_logo: 'vendor/roseblade/silverstripe-tweaks/client/dist/images/silverstripe-logo-v4.png'
+  extensions:
+    - Roseblade\DataExtension\SiteConfigExtension
+    - Burnbright\SocialLinks\SiteConfigSocialLinksExtension

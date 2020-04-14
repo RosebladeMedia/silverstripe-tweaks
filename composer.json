@@ -26,7 +26,12 @@
 		"jonom/silverstripe-betternavigator": "^5.0",
 		"axllent/silverstripe-email-obfuscator": "*",
 		"kinglozzer/metatitle": "^2.0",
-		"unclecheese/display-logic": "^2.0.3"
+		"unclecheese/display-logic": "^2.0.3",
+		"silverstripe/login-forms": "^4.1",
+		"littlegiant/silverstripe-seo-editor": "^2.1",
+		"ryanpotter/silverstripe-cms-theme": "^3.4",
+		"axllent/silverstripe-cms-tweaks": "^2.1",
+		"burnbright/silverstripe-sociallinks": "^2.0"
 	},
 	"extra": {
 		"expose": [
