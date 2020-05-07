@@ -3,7 +3,7 @@ Name: sstweaks
 ---
 SilverStripe\Admin\LeftAndMain:
   extra_requirements_css: 
-    - '_resources/vendor/roseblade/silverstripe-tweaks/client/dist/cms-tweaks.css'
+    - 'vendor/roseblade/silverstripe-tweaks/client/dist/cms-tweaks.css'
   help_links:
     'Developer docs': ''
   cms_background: '#114759'
@@ -39,7 +39,7 @@ PSWDSite\HomePage:
 gorriecoe\DevBuildKey\DevBuildKey:
     run_in_background: true
 SilverStripe\SiteConfig\SiteConfig:
-  cms_logo: 'resources/vendor/roseblade/silverstripe-tweaks/client/dist/images/silverstripe-logo-v4.png'
+  cms_logo: '_resources/vendor/roseblade/silverstripe-tweaks/client/dist/images/silverstripe-logo-v4.png'
   extensions:
     - Roseblade\DataExtension\SiteConfigExtension
     - Burnbright\SocialLinks\SiteConfigSocialLinksExtension
