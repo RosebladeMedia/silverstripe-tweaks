@@ -39,7 +39,7 @@ PSWDSite\HomePage:
 gorriecoe\DevBuildKey\DevBuildKey:
     run_in_background: true
 SilverStripe\SiteConfig\SiteConfig:
-  cms_logo: '_resources/vendor/roseblade/silverstripe-tweaks/client/dist/images/silverstripe-logo-v4.png'
+  cms_logo: 'resources/vendor/roseblade/silverstripe-tweaks/client/dist/images/silverstripe-logo-v4.png'
   extensions:
     - Roseblade\DataExtension\SiteConfigExtension
     - Burnbright\SocialLinks\SiteConfigSocialLinksExtension
